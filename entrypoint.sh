@@ -16,6 +16,7 @@ fi
 
 if [ -n "$PROJECT_PATH" ]; then
   cd "$PROJECT_PATH"
+  npm install && npm build
 fi
 
 if [ -n "$PROJECT_ID" ]; then
