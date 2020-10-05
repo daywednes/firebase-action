@@ -24,4 +24,7 @@ if [ -n "$PROJECT_ID" ]; then
     firebase use --add "$PROJECT_ID"
 fi
 
+echo "Current dir $PWD"
+ls -lsa
+
 sh -c "firebase $*"
